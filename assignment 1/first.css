@@ -60,13 +60,14 @@ p{
     font-size: 15px;
 }
 .b3{
-    margin-left: 111px;
+    margin-left: 85px;
     margin-top: 1px;
-    width: 95px;
+    width: 130px;
     height: 40px;
     font-weight: 600;
-    border: 1px solid rgb(9, 161, 237);
+     border: none;
     border-radius: 20px;
     background-color: rgba(9, 193, 239, 0.247);
     color: rgb(5, 141, 245);
+  
 }
