@@ -1,0 +1,1011 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+
+}
+.first{
+    width: 100%;
+    height: 635px;
+    background-color: rgba(0, 0, 0, 0.324);
+    background-image: url(/real-estate-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    width: 100%;
+    height: 64px;
+    /* border: 1px solid white; */
+    padding-left: 100px;
+    padding-right: 180px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.813);
+}
+.title{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.opt{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+.title > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: white;
+}
+.opt1{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.opt1 > a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.opt2{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.opt2 > button{
+    width: 100px;
+    height: 37px;
+    border: none;
+    border-radius: 90px;
+    background-color: rgb(12, 93, 214);
+    color: white;
+    font-size: 15px;
+}
+.first1{
+    width: 37%;
+    height: 210px;
+    /* border: 1px solid white; */
+    margin-top: 180px;
+    margin-left: 230px;
+}
+.first1a{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid white; */
+    margin-top: 15px;
+    display: flex;
+    align-items: end;
+}
+.first1b{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+}
+.first1c{
+    width: 100%;
+    height: 55px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.first1a > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+.first1b > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+#b1{
+    width: 123px;
+    height: 70%;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+}
+#b2{
+    width: 123px;
+    height: 70%;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+}
+#b1 > i{
+    font-size: 20px;
+}
+.second{
+    width: 100%;
+    height: 220px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.sec1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(146, 52, 234);
+    padding-top: 10px;
+}
+.sec2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(165, 4, 165);
+    padding-top: 10px;
+}
+.sec3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(3, 121, 3);
+    padding-top: 10px;
+}
+.sec4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(103, 205, 245);
+    padding-top: 10px;
+}
+.sec1a{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec1b{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.sec1c{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.sec2a{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec2b{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.sec2c{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.sec3a{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec3b{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.sec3c{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.sec4a{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec4b{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.sec4c{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+.sec1a > i{
+    font-size: 40px;
+    color: white;
+}
+.sec2a > i{
+    font-size: 40px;
+    color: white;
+}
+.sec3a > i{
+    font-size: 40px;
+    color: white;
+}
+.sec4a > i{
+    font-size: 40px;
+    color: white;
+}
+.sec1b > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sec2b > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sec3b > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sec4b > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sec1c > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.sec2c > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.sec3c > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.sec4c > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.third{
+    width: 100%;
+    height: 430px;
+    border: none;
+    background-color: rgb(220, 215, 215);
+    padding-top: 30px;
+}
+.thd1{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.thd1 > h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 40px;
+}
+.thd2{
+    width: 100%;
+    height: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.thd3{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.thd3a{
+    width: 23%;
+    height: 250px;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+}
+.thd3b{
+    width: 23%;
+    height: 250px;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+}
+.thd3c{
+    width: 23%;
+    height: 250px;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+}
+.d1{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: orange;
+}
+.d2{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d3{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-left: 13px;
+}
+.e1{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(70, 191, 239);
+}
+.e2{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.e3{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-left: 13px;
+}
+.f1{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: red;
+}
+.f2{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f3{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-left: 13px;
+}
+.box{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding-top: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    align-items: center;
+}
+.bmain{
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.bmain1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmain2{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bma{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmb{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.bmc{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.bmd{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bma1{
+    width: 85%;
+    height: 85%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/night1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.bmd1{
+    width: 85%;
+    height: 85%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/night2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.bmb1{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmb2{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmb3{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmc1{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmc2{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmc3{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bmb1a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(45, 183, 237);
+}
+.bmb1b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.bmb2a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(214, 70, 115);
+}
+.bmb2b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.bmb3a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(78, 1, 78);
+}
+.bmb3b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.bmc1a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(90, 21, 155);
+}
+.bmc1b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.bmc2a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(247, 5, 41);
+}
+.bmc2b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.bmc3a{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    color: rgb(19, 68, 174);
+}
+.bmc3b{
+    width: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.plan{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(6, 6, 120, 0.902);
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.planbody{
+    width: 75%;
+    height: 500px;
+    /* border: 1px solid white; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan1{
+    width: 32%;
+    height: 92%;
+    /* border: 1px solid white; */
+    background-color: rgba(46, 46, 46, 0.84);
+    background-image: url(/skyscraper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-top: 27px;
+}
+.plan2{
+    width: 32%;
+    height: 92%;
+    /* border: 1px solid white; */
+    background-color: rgba(2, 97, 2, 0.858);
+    background-image: url(/skyscraper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-top: 27px;
+}
+.plan3{
+    width: 32%;
+    height: 92%;
+    /* border: 1px solid white; */
+    background-color: rgba(154, 44, 4, 0.89);
+    background-image: url(/skyscraper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-top: 27px;
+}
+#ba{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#bb{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#bc{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.memb{
+    width: 100%;
+    height: 770px;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.membbody{
+    width: 85%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.memb1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.memb2{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.memb1a{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.memb1b{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.memb2a{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.memb2b{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#ma1{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+#ma2{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+#mb1{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+#mb2{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+#na1{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/pic3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+#na2{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+#nb1{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/pic4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+#nb2{
+    width: 45%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+.contact{
+    width: 100%;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.676);
+    background-image: url(/real-estate-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-top: 41px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    width: 70%;
+    height: 360px;
+    background-color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont1{
+    width: 65%;
+    height: 90%;
+    /* border: 1px solid black; */
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    gap: 10px;
+}
+.cont2{
+    width: 27%;
+    height: 90%;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    padding-top: 20px;
+}
+.inp1{
+    width: 48%;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+.inp2{
+    width: 48%;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.inp3{
+    width: 98%;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+.cont1 > p{
+    margin-top: 40px;
+}
+.cont1 > button{
+    width: 110px;
+    height: 40px;
+    border: none;
+    background-color: rgb(2, 2, 152);
+    color: white;
+    margin-top: 35px;
+}
+.cont2a{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    color: rgb(2, 2, 152);
+}
+.cont2b{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    color: rgb(2, 2, 152);
+}
+.cont2c{
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    color: rgb(2, 2, 152);
+}
+.cont2a > center > p{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.cont2b > center > p{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.cont2c > center > p{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(2, 2, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    gap: 30px;
+}
+.end{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 1, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    gap: 10px;
+}
